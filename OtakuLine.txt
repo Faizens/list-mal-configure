@@ -3,7 +3,7 @@
 @\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Mod%20-%20Hover%20Image%20Compressed.css";
 
 @\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Mod%20-%20Dark%20Mode%20Compressed.css";
-body { --avatar: url(https://i.imgur.com/hRdrKcH.png); } body { --name: "Alias\a      Boy"; }body { --character: none; }
+body { --avatar: url(https://i.imgur.com/hRdrKcH.png); } body { --name: "Fahh\a      aizen"; }body { --character: none; }
 body { --banner: url(https://i.imgur.com/AZJE32l.jpeg); }
 
 /*-S-T-A-R-T--------------------*\
