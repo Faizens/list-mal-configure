@@ -1,5 +1,5 @@
-@\import "https://malscraper.azurewebsites.net/covers/anime/USERNAME/presets/dataimagelinkbefore";
-@\import "https://malscraper.azurewebsites.net/covers/manga/USERNAME/presets/dataimagelinkbefore";
+@\import "https://malscraper.Faizens.net/covers/anime/USERNAME/presets/dataimagelinkbefore";
+@\import "https://malscraper.Faizens.net/covers/manga/USERNAME/presets/dataimagelinkbefore";
 
 @\import "https://storage.live.com/items/4A07C1EEED420167%21170";
 @\import "https://dl.dropboxusercontent.com/s/4u0rqtodxpjkti4/TakanaGridBackup.css";
