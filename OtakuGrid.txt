@@ -1,0 +1,342 @@
+{IMPORTANT:
+For sharper and brighter preview pics, change "USERNAME" to your username in the first two imports below. They start with 
+@\import
+
+If needed, fix layout problems with this topic:
+https://myanimelist.net/forum/?topicid=439897  
+}
+
+@\import "https://malscraper.azurewebsites.net/covers/anime/AliasBoy/presets/dataimagelinkbefore";
+ 
+@\import "https://malscraper.azurewebsites.net/covers/manga/AliasBoy/presets/dataimagelinkbefore";
+ 
+/*Layout CSS was originally made by Takana_no_hana, edits by 
+Shishio-kun and Valerio_Lyndon
+ 
+Grid Style 5, 2023 Update
+ 
+Learn how to customize the layout here:
+https://myanimelist.net/forum/?topicid=1640096
+*/
+@\import "https://storage.live.com/items/4A07C1EEED420167%21170";
+
+@\import "https://dl.dropboxusercontent.com/s/4u0rqtodxpjkti4/TakanaGridBackup.css";
+
+@\import "https://fonts.googleapis.com/css?family=Orbitron";
+
+@\import "https://fonts.googleapis.com/css?family=Amaranth";
+
+@\import "https://fonts.googleapis.com/css?family=Rancho";
+
+@\import "https://fonts.googleapis.com/css?family=Kaushan+Script|Tangerine";
+
+
+
+
+/*WALLPAPERS
+To change background images: delete what's in the parenthesis. Upload 
+the new background to Imgur or a similar site, then copy the direct link (or Original GIF link if it's animated) and paste it into the parenthesis. Save.*/
+
+/*ALL ANIME/MANGA WALLPAPER*/
+body[data-query*='"status":7'] {
+background-image: url(https://i.imgur.com/6puBJ9c.jpg);
+}
+/*CURRENTLY WATCHING WALLPAPER*/
+body[data-query*='"status":1'] {
+background-image: url(https://i.imgur.com/3XqhN0m.jpg);
+}
+/*COMPLETED WALLPAPER*/
+body[data-query*='"status":2'] {
+background-image: url(https://i.imgur.com/Kra2VVu.jpg);
+}
+/*ON HOLD WALLPAPER*/
+body[data-query*='"status":3'] {
+background-image: url(https://i.imgur.com/AYIE9xb.jpg);
+}
+/*DROPPED WALLPAPER*/
+body[data-query*='"status":4'] {
+background-image: url(https://i.imgur.com/EadWTsz.jpg);
+}
+/*PLANNED WALLPAPER*/
+body[data-query*='"status":6'] {
+background-image: url(https://i.imgur.com/DNxYnjX.jpg);
+}
+
+/*PREVIEW PICS/COVERS
+See the help at the top of this layout code if you have problems 
+with blurry or missing preview pics.
+
+If you want to customize a preview pic, use the code below but change the number after "anime" to the anime's number. Get the number from the address bar on its page on MAL. For example if you go to Code Geass's page the number in the address bar is 1575.
+
+Change "anime" to "manga" to customize manga previews. This code customizes the Code Geass preview (anime #1575) if you change the background image link.
+
+Copy and paste the code to customize more preview pics, just change the number.*/
+
+.data.image a[href^="/anime/1575/"]:before{background-image:url(https://i.imgur.com/QuPoz5o.jpg);
+}
+
+/*BANNER AVATAR
+Change the first "center" to "left" or "right" to move the picture position. Change "cover" to "contain" or remove it to change how the image fills the avatar.*/
+.list-table .list-table-header:after {
+	background-image: url(http://i.imgur.com/GH6BMvr.gif);
+	background-position: center center;
+	background-size: cover !important;
+}
+
+/*BANNER QUOTE*/
+.cover-block::before {
+	content: "I won't let go of you - I'll never let go again ... This hand was finally able to catch you!"
+}
+ 
+/*BANNER BACKGROUNDS AND HEIGHT
+You can change the images here and adjust the height. If you can't see the whole image increase height and/or change "cover" to "contain". 
+
+You may want to lower cover pics after (scroll down).*/
+
+/*ALL ANIME/MANGA BANNER BACKGROUND*/
+.list-unit.all_anime .list-status-title:after {
+background-image: url(http://i.imgur.com/W6iKnWb.png);
+background-size: cover !important;
+height: 500px !important;
+}
+/*CURRENTLY WATCHING BANNER BACKGROUND*/
+.list-unit.watching .list-status-title:after,
+.list-unit.reading .list-status-title:after  {
+background-image: url(https://i.imgur.com/H0EO4oq.png);
+background-size: cover !important;
+height: 500px !important;
+}
+/*COMPLETED BANNER BACKGROUND*/
+.list-unit.completed .list-status-title:after {
+background-image: url(https://i.imgur.com/49bdCG6.png);
+background-size: cover !important;
+height: 500px !important;
+}
+/*ON-HOLD BANNER BACKGROUND*/
+.list-unit.onhold .list-status-title:after {
+background-image: url(http://i.imgur.com/pPc1BRS.png);
+background-size: cover !important;
+height: 500px !important;
+}
+/*DROPPED BANNER BACKGROUND*/
+.list-unit.dropped .list-status-title:after {
+background-image: url(http://i.imgur.com/XAbWBod.png);
+background-size: cover !important;
+height: 500px !important;
+}
+/*PLAN TO BANNER BACKGROUND*/
+.list-unit.plantowatch .list-status-title:after,
+.list-unit.plantoread .list-status-title:after  {
+background-image: url(https://i.imgur.com/uDF1ZIt.jpg);
+background-size: cover !important;
+height: 500px !important;
+} 
+
+/*MOVE COVER PICS UP OR DOWN
+Increase 0px to a higher amount like 100px to move the anime preview pics and header (Completed, etc) down. -480px brings them up to the banner buttons. 
+
+If you put [data-query*='"status":7'] at the start of the first two lines of code (with a space after), it will affect only All Anime/Manga. Example:
+
+[data-query*='"status":7'] .list-unit .list-status-title .text,
+[data-query*='"status":7'] .list-item
+
+Change the 7 to 1 for current, 2 for completed, 3 for hold, 4 for dropped, and 6 for planned. Copy and paste the code again if needed.*/
+.list-unit .list-status-title .text,
+.list-item{
+	top: 0px;
+}
+
+/*BANNER BUTTON BACKGROUNDS 
+The first image link in parenthesis is the still black and white image, the second image link is the animated image (a GIF).*/
+
+/*ALL ANIME BANNER BUTTON*/
+.status-button.all_anime {
+	background-image:url(http://i.imgur.com/DLLqSTd.png);
+}
+.status-button.all_anime:hover,.status-button.all_anime.on {
+	background-image:url(http://i.imgur.com/aKqWN3u.gif);
+}
+/*CURRENT BANNER BUTTON*/
+.status-button.watching,.status-button.reading {
+	background-image:url(http://i.imgur.com/5pPg4ac.png);
+}
+.status-button.watching:hover,.status-button.watching.on,.status-button.reading:hover,.status-button.reading.on {
+	background-image:url(http://i.imgur.com/WESHf5N.gif);
+}
+/*COMPLETED BANNER BUTTON*/
+.status-button.completed {
+	background-image:url(http://i.imgur.com/RlcbKxj.png);
+}
+.status-button.completed:hover,.status-button.completed.on {
+	background-image:url(http://i.imgur.com/UMovoVS.gif);
+}
+/*ON HOLD BANNER BUTTON*/
+.status-button.onhold {
+	background-image:url(http://i.imgur.com/ASPp5y9.png);
+}
+.status-button.onhold:hover ,.status-button.onhold.on {
+	background-image:url(http://i.imgur.com/ouJqNKc.gif);
+}
+/*DROPPED BANNER BUTTON*/
+.status-button.dropped {
+	background-image:url(http://i.imgur.com/aTKLiQg.png);
+}
+.status-button.dropped:hover,.status-button.dropped.on {
+	background-image:url(http://i.imgur.com/sRPU8yp.gif);
+}
+/*PLANNED BANNER BUTTON*/
+.status-button.plantowatch,.status-button.plantoread{
+	background-image:url(http://i.imgur.com/BBHhd2Z.png);
+}
+.status-button.plantowatch:hover,.status-button.plantowatch.on,.status-button.plantoread:hover,.status-button.plantoread.on {
+	background-image:url(http://i.imgur.com/zJYQb4x.gif);
+}
+
+/*SIDE RENDERS (left and right)
+To move the renders, adjust the percentage after "left" or "right". You can use negatives. To resize the renders, adjust the percentage after "width". 0% will remove the render.*/
+
+/*ALL ANIME/MANGA RENDERS*/
+[data-query*='"status":7'] footer:before {
+left: -2%;
+/*left: -6%;*/
+width: 15% !important;
+/*width: 25% !important;*/
+background-size: contain !important;
+background-image: url(https://i.imgur.com/Py48UXM.png);
+/*background-image: url(https://i.imgur.com/UzXHkNC.png);*/
+background-position: left bottom !important;
+} 
+[data-query*='"status":7'] footer:after {
+right: -5.5%;
+width: 25% !important;
+background-size: contain !important;;
+background-image: url(https://i.imgur.com/Mp0HpEN.png);
+background-position: right bottom !important;
+}
+/*CURRENT RENDERS*/
+/*[data-query*='"status":1'] footer:before {*/
+/*left: -3%;*/
+/*width: 25% !important;*/
+/*background-size: contain !important;*/
+/*background-image: url(https://i.imgur.com/4ptF5hS.png);*/
+/*background-position: left bottom !important;*/
+/*}*/
+[data-query*='"status":1'] footer:after {
+right: -4%;
+width: 25% !important;
+background-size: contain !important;;
+/*background-image: url(https://i.imgur.com/7Jh3h3n.png);*/
+background-image: url(https://i.imgur.com/FJu5asH.png);
+background-position: right bottom !important;
+}
+/*COMPLETED RENDERS*/
+/*[data-query*='"status":2'] footer:before {*/
+/*left: -3%;*/
+/*width: 25% !important;*/
+/*background-size: contain !important;*/
+/*background-image: url(https://i.imgur.com/g09J9pi.png);*/
+/*background-position: left bottom !important;*/
+/*}*/
+[data-query*='"status":2'] footer:after {
+right: -3%;
+width: 25% !important;
+background-size: contain !important;;
+background-image: url(https://i.imgur.com/paNwIMD.png);
+background-position: right bottom !important;
+}
+/*ON HOLD RENDERS*/
+[data-query*='"status":3'] footer:before {
+left: -4%;
+width: 25% !important;
+background-size: contain !important;
+background-image: url(https://i.imgur.com/QUGICqR.png);
+background-position: left bottom !important;
+}
+[data-query*='"status":3'] footer:after {
+right: -4%;
+width: 25% !important;
+background-size: contain !important;;
+background-image: url(https://i.imgur.com/5HafUBW.png);
+background-position: right bottom !important;
+}
+/*DROPPED RENDERS*/
+[data-query*='"status":4'] footer:before {
+left: -2%;
+width: 25% !important;
+background-size: contain !important;
+background-image: url(https://i.imgur.com/08bD4Tm.png);
+background-position: left bottom !important;
+}
+/*[data-query*='"status":4'] footer:after {*/
+/*right: -5%;*/
+/*width: 25% !important;*/
+/*background-size: contain !important;;*/
+/*background-image: url(https://i.imgur.com/DFFv0xB.png);*/
+/*background-position: right bottom !important;*/
+/*}*/
+/*PLANNED RENDERS*/
+/*[data-query*='"status":6'] footer:before {*/
+/*left: -3.5%;*/
+/*width: 25% !important;*/
+/*background-size: contain !important;*/
+/*background-image: url(https://i.imgur.com/x47aHuS.png);*/
+/*background-position: left bottom !important;*/
+/*}*/
+[data-query*='"status":6'] footer:after {
+right: -3%;
+width: 25% !important;
+background-size: contain !important;;
+background-image: url(https://i.imgur.com/SVkROTQ.png);
+background-position: right bottom !important;
+}
+ 
+/*ANIME/MANGA CONTAINER SETTINGS
+(TABLE COLORS)
+You can change the color with rbga colors. Generate RGBA colors here so you can replace the codes below:
+https://www.hexcolortool.com/
+First set of colors= entire table. Second = banner. Third = default container behind an anime. Fourth = container when you point to it. Fifth = upper left menu. Sixth = top. You can set the last digit to zero to make it completely transparent.*/
+.list-unit {
+	background-color: rgba(0,0,0,.6) ;
+}
+.status-menu-container {
+	background-color: rgba(0,0,0,.4) ;
+}
+.list-table .list-table-data {
+	background-color: rgba(0,0,0,.2) !important;
+}
+.list-table .list-table-data:hover {
+	background-color: rgba(0,0,0,.4) !important;
+}
+.list-menu-float .icon-menu{
+	background-color: rgba(0,0,0,.4) !important;
+}
+.header {
+	background: linear-gradient(rgba(0,0,0,.4),transparent) !important;
+}
+ 
+/*CUSTOM CURSOR 
+More here: https://myanimelist.net/forum/?topicid=1903808*/
+body *, :not(*) {
+	cursor: url(https://i.imgur.com/j9ZWzyT.png), auto !important;
+}
+ 
+/*FILTER MENU BACKGROUND*/
+#advanced-options {
+	background-image: url(https://i.imgur.com/h0VRsRc.png) !important;
+}
+ 
+/*MAL LOGO*/
+.header .header-title{
+background-image: url(https://imgur.com/E7zWfiY.png) !important;
+}
+
+/*GREYSCALE FOR CUSTOM CATEGORY BUTTONS 
+Delete this to remove grey from custom buttons.*/
+.status-button.watching,.status-button.reading,.status-button.completed,.status-button.onhold,.status-button.dropped,.status-button.plantowatch,.status-button.plantoread,.status-button.all_anime{
+	filter: grayscale(100%);
+}
+.status-button.all_anime:hover,.status-button.all_anime.on,.status-button.plantowatch:hover,.status-button.plantowatch.on,.status-button.plantoread:hover,.status-button.plantoread.on,.status-button.dropped:hover,.status-button.dropped.on,.status-button.onhold:hover,.status-button.onhold.on,.status-button.completed:hover,.status-button.completed.on,.status-button.watching:hover,.status-button.watching.on,.status-button.reading:hover,.status-button.reading.on{
+	filter: inherit;
+}
+ 
+{ADD NEW CODES UNDER HERE}
