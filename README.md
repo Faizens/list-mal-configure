@@ -7,7 +7,7 @@ This is my custom theme for MyAnimeList (MAL).
 
 ## How to Use
 
-1. Download the theme files.
+1. Copy code from either `.txt` file.
 2. Access your MyAnimeList list settings.
 3. Insert the theme code into custom settings.
 
