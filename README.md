@@ -32,6 +32,8 @@ Each list status has its own wallpaper rule:
 - Dropped
 - Planned
 
+# Banner quote
+Edit the text inside the `content: "..."` value under the Banner Quote section to change the quote shown on your profile banner.
 
 ## Layout problems
 
