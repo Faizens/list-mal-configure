@@ -37,3 +37,10 @@ Each list status has its own wallpaper rule:
 - On Hold
 - Dropped
 - Planned
+
+
+## Credits
+
+- Original: **Takana_no_hana**
+- Updates: **Shishio-kun**, **Valerio_Lyndon**
+- Modified by: **Faizens**
