@@ -1,6 +1,5 @@
 # MyAnimeList Theme
-
-This is my custom theme for MyAnimeList (MAL).
+custom theme for MyAnimeList (MAL).
 
 ## Preview
 
