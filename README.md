@@ -23,14 +23,6 @@ change "USERNAME" to your username in the first two imports below. They start wi
 
 To change a background image, delete the URL inside the url(...) parentheses for the relevant status section, upload your new background to Imgur (or similar), and paste the direct image link (or the original GIF link if animated) in its place, then save.
 
-Each list status has its own wallpaper rule:
-
-- All Anime/Manga
-- Currently Watching
-- Completed
-- On Hold
-- Dropped
-- Planned
 
 # Banner quote
 Edit the text inside the `content: "..."` value under the Banner Quote section to change the quote shown on your profile banner.
