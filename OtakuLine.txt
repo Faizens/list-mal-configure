@@ -1,0 +1,109 @@
+@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Theme%20-%20Compressed.css";
+@\import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkbefore";
+@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Mod%20-%20Hover%20Image%20Compressed.css";
+
+@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Mod%20-%20Dark%20Mode%20Compressed.css";
+body { --avatar: url(https://i.imgur.com/hRdrKcH.png); } body { --name: "Alias\a      Boy"; }body { --character: none; }
+body { --banner: url(https://i.imgur.com/AZJE32l.jpeg); }
+
+/*-S-T-A-R-T--------------------*\
+| Favourite Hearts (Left) R0.4   |
+\*------------------------------*/
+.data.tags span{padding:0}.data.tags span a{margin:1px 0}.data.tags span a[href*="=Favorite"],.data.tags span a[href*="=Favourite"]{position:absolute;left:-34px;top:calc(50% - 13px);width:26px;height:26px;padding:0;background:var(--bg);border-radius:50%;color:#ff65ad!important;font-size:0!important;line-height:23px;overflow:hidden;box-shadow:0 1px 2px rgba(0,0,0,.2)}.data.tags span a[href*="=Favorite"]:before,.data.tags span a[href*="=Favourite"]:before{content:"♥";font-size:26px}
+/*------------------------E-N-D-*/
+/*-S-T-A-R-T--------------------*\
+| Per-Category Banner Image      |
+\*------------------------------*/
+
+/* All Anime */
+[data-query*='status":7'] { --banner: url(https://zippyimage.com/images/2020/10/26/8e34b19c0dab21756548d2a82ba311bd.jpg); }
+/* Watching/Reading */
+[data-query*='status":1'] { --banner: url(https://zippyimage.com/images/2020/10/26/f0c745459538642fb1ecfd598bddfd0b.jpg); }
+/* Completed */
+[data-query*='status":2'] { --banner: url(https://zippyimage.com/images/2020/10/26/4e8d3388c847c2d9ccef6a29be6e654b.jpg); }
+/* Onhold */
+[data-query*='status":3'] { --banner: url(https://zippyimage.com/images/2020/10/26/f7fd4d9ba54e05e55cb27528d07a68a5.jpg); }
+/* Dropped */
+[data-query*='status":4'] { --banner: url(https://zippyimage.com/images/2020/10/26/079218e7f50ba7ad29ca857d232e3948.jpg); }
+/* Planned */
+[data-query*='status":6'] { --banner: url(https://zippyimage.com/images/2020/10/26/692f6464913b392283f7603bb572f910.jpg); }
+/*==============================*\
+|       Score  Descriptors       |
+\* --- - --- - ---- - --- - --- */
+
+.score-na::before {
+	content: "Haven't decided";
+}
+
+.score-1::before {
+	content: "Unredeemable";
+}
+
+.score-2::before {
+	content: "Horrid";
+}
+
+.score-3::before {
+	content: "Awful";
+}
+
+.score-4::before {
+	content: "Bad";
+}
+
+.score-5::before {
+	content: "Mediocre";
+}
+
+.score-6::before {
+	content: "Alright";
+}
+
+.score-7::before {
+	content: "Good";
+}
+
+.score-8::before {
+	content: "Great";
+}
+
+.score-9::before {
+	content: "Fantastic";
+}
+
+.score-10::before {
+	content: "Incredible";
+}
+
+/* Internals */
+
+.score-label {
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	transition: color 0.2s ease;
+}
+
+.score-label:hover {
+	color: #fff !important;
+}
+
+.score-label::before {
+	position: absolute;
+	top: -4px;
+	left: -8px;
+	z-index: -1;
+	display: block;
+	padding: 4px 8px 4px calc(100% + 12px);
+	background: #111;
+	border-radius: 4px;
+	opacity: 0;
+	transition: opacity 0.2s ease;
+	white-space: pre;
+	text-align: left;
+	pointer-events: none;
+}
+
+.score-label:hover::before {
+	opacity: 1;
+}
