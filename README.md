@@ -14,7 +14,7 @@ This is my custom theme for MyAnimeList (MAL).
 ## Fix sharper / brighter preview pics
 change "USERNAME" to your username in the first two imports below. They start with 
 @\import
-```
+```css
 @\import "https://malscraper.USERNAME.net/covers/anime/USERNAME/presets/dataimagelinkbefore";
 @\import "https://malscraper.USERNAME.net/covers/manga/USERNAME/presets/dataimagelinkbefore";
 ```
