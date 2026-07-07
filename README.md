@@ -17,3 +17,8 @@ change "USERNAME" to your username in the first two imports below. They start wi
 ```css
 @\import "https://malscraper.USERNAME.net/covers/anime/USERNAME/presets/dataimagelinkbefore";
 ```
+
+## Layout problems
+
+If you run into layout issues, check this troubleshooting thread: 
+https://myanimelist.net/forum/?topicid=439897
