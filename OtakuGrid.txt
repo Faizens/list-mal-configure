@@ -6,9 +6,9 @@ If needed, fix layout problems with this topic:
 https://myanimelist.net/forum/?topicid=439897  
 }
 
-@\import "https://malscraper.Fahhaizen.net/covers/anime/AliasBoy/presets/dataimagelinkbefore";
+@\import "https://malscraper.Fahhaizen.net/covers/anime/Fahhaizen/presets/dataimagelinkbefore";
  
-@\import "https://malscraper.Fahhaizen.net/covers/manga/AliasBoy/presets/dataimagelinkbefore";
+@\import "https://malscraper.Fahhaizen.net/covers/manga/Fahhaizen/presets/dataimagelinkbefore";
  
 /*Layout CSS was originally made by Takana_no_hana, edits by 
 Shishio-kun and Valerio_Lyndon
