@@ -31,9 +31,9 @@ To change a background image, delete the URL inside the url(...) parentheses for
 
 Each list status has its own wallpaper rule:
 
-● All Anime/Manga
-● Currently Watching
-● Completed
-● On Hold
-● Dropped
-● Planned
+- ● All Anime/Manga
+- ● Currently Watching
+- ● Completed
+- ● On Hold
+- ● Dropped
+- ● Planned
