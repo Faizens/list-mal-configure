@@ -7,15 +7,16 @@ custom theme for MyAnimeList (MAL).
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/44e01956-13f2-4aed-a939-76bd22aa1d55" />
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/37334aef-d8f3-4931-bca9-28440eeb5c8b" />
-
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6954bd9f-c3be-4cfd-bff2-149d44cdc3fa" />
-
 ## How to Use
 
 1. Copy code from either `.txt` file.
 2. Access your MyAnimeList list settings.
 3. Insert the theme code into custom settings.
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/37334aef-d8f3-4931-bca9-28440eeb5c8b" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6954bd9f-c3be-4cfd-bff2-149d44cdc3fa" />
+
 
 ## Fix sharper / brighter preview pics
 change "USERNAME" to your username in the first two imports below. They start with 
