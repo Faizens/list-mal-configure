@@ -5,7 +5,7 @@ custom theme for MyAnimeList (MAL).
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b99c71d1-aabd-4549-99fb-5a517df1576b" />
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/2cdef03c-ff45-4bc6-8dd5-f34ab13c0592" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/44e01956-13f2-4aed-a939-76bd22aa1d55" />
 
 ## How to Use
 
