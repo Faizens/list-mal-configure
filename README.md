@@ -3,7 +3,7 @@ custom theme for MyAnimeList (MAL).
 
 ## Preview
 
-<img width="1920" height="913" alt="2" src="https://kommodo.ai/i/3557Ms0nGNfXglhkMenQ" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b99c71d1-aabd-4549-99fb-5a517df1576b" />
 
 ## How to Use
 
