@@ -3,7 +3,7 @@ custom theme for MyAnimeList (MAL).
 
 ## Preview
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b99c71d1-aabd-4549-99fb-5a517df1576b" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/39320984-5a05-4afa-ad9b-00abdc3f3e2a" />
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/44e01956-13f2-4aed-a939-76bd22aa1d55" />
 
